@@ -1,0 +1,31 @@
+#sobre {
+    background-color: var(--cor-de-sobre);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 10px;
+  }
+  
+  .imagem-sobre {
+    width: 35%;
+    border: solid, 20px, var(--header-cor-de-fundo);
+    border-radius: 20px;
+  }
+  
+  .itens-cabecalho {
+    font-size: 30px;
+  }
+  
+  .titulo-sobre {
+    padding: 24px 0;
+  }
+  
+  .div-sobre-conteudo {
+    width: 35%;
+  }
+  
+  .texto-sobre {
+    font-size: 20px;
+    /* border: solid, var(--header-cor-de-fundo);
+    border-radius: 10px; */
+  }

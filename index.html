@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/logoicone.png"/>
+    <title>VelozTune</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg cabecalho">
+            <div class="container-fluid">
+            <img class="logo" src="img/logo2.png" alt="logo da veloz tune">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse itens-cabecalho" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#precos">Preços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section id="sobre">
+        <div class="div-sobre-conteudo">
+            <h2 class="titulo-sobre">Sobre a VelozTune</h2>
+            <p class="texto-sobre">A nossa oficina especializada em tuning dedica-se a realizar projetos de personalização automotiva com excelência. Atuamos com uma ampla gama de veículos, oferecendo serviços especializados em personalização automotiva.</p>
+            <p class="texto-sobre">Os preços dos nossos serviços variam de acordo com as especificações do projeto solicitado pelo cliente. Nossa equipe é reconhecida como uma das principais no Brasil na preparação de veículos. Estamos planejando expandir nossas operações internacionalmente em um futuro próximo.</p>
+        </div>
+        <img class="imagem-sobre" src="img/imagem.png" alt="">
+    </section>
+    <section id="precos">
+        <div class="div-precos-conteudo">
+            <h1 class="titulo-precos">Preços</h1>
+            <ul class="produtos">
+				<li>
+					<h2>Remapeamento de ECU:</h2>
+					<img class="imagem-preco" src="img/imagem1.jpg">
+					<p class="produto-descricao">Ajuste eletrônico da central do motor para aumentar potência e eficiência.</p>
+					<p class="produto-preco">pode variar bastante, geralmente a partir de algumas centenas até milhares de reais.</p>
+				</li>
+				<li>
+					<h2>Escape Esportivo:</h2>
+					<img class="imagem-preco" src="img/imagem2.jpg">
+					<p class="produto-descricao">Instalação de filtros de ar, coletores de admissão e sistemas de escape de alto fluxo.</p>
+					<p class="produto-preco">filtros de ar esportivos a partir de R$ 300, coletores e escapes podem variar de R$ 1.000 a R$ 5.000.</p>
+				</li>
+				<li>
+					<h2>Suspensão Esportiva:</h2>
+					<img class="imagem-preco" src="img/imagem3.jpg">
+					<p class="produto-descricao">Instalação de molas esportivas, amortecedores ajustáveis ou kits de suspensão coilover.</p>
+					<p class="produto-preco">molas esportivas a partir de R$ 1.000, kits coilover podem variar de R$ 2.000 a R$ 10.000.</p>
+				</li>
+			</ul>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="div-contato-conteudo">
+            <h1 class="titulo-contato">Contato</h1>
+            <form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+        </div>
+    </section>
+    <footer class="rodape">
+        <img class="logo-rodape" src="img/logo2.png">
+        <p class="copyright">&copy; Copyright VelozTune - 2024</p>
+    </footer>
+</body>
+</html>

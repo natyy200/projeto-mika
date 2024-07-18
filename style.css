@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url(styles/header.css);
+@import url(styles/sobre.css);
+@import url(styles/preco.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
+
+:root {
+  --cor-de-sobre: #dae5e7;
+  --header-cor-de-fundo:#a2bac0;
+  --cor-fonte: #0f2933;
+  --cor-precos: #a2bac0;
+  --cor-borda: #5c636c;
+  --cor-fonte-dois: #5c6c6c;
+  --cor-hover-preco: #C78C19;
+  --cor-rodape: #07171d;
+  --cor-botao: #549ca4;
+  --cor-botao-hover: #44676b;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: var(--cor-de-sobre);
+  color: var(--cor-fonte-dois);
+}

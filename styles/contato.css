@@ -1,0 +1,49 @@
+.titulo-contato {
+    margin: 30px 0;
+  }
+  
+  #contato {
+    width: 940px;
+      margin: 0 auto;
+  }
+  
+  form {
+      margin: 40px 0;
+  }
+  
+  form label, form legend {
+      display:block;
+      font-size: 20px;
+      margin: 0 0 10px;
+  }
+  
+  .input-padrao {
+      display: block;
+      margin: 0 0 20px;
+      padding: 10px 25px;
+      width: 50%;
+  }
+  
+  .checkbox {
+      margin: 20px 0;
+  }
+  
+  .enviar {
+      width:30%;
+      padding: 15px 0;
+      background: var(--cor-botao);
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      transition: 1s all;
+      cursor: pointer;
+  }
+  
+  .enviar:hover {
+      /* background: darkorange; */
+    background-color: var(--cor-botao-hover);
+      transform: scale(1.2);
+  }
+  

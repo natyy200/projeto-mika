@@ -1,0 +1,7 @@
+.logo {
+    width: 20%;
+  }
+  
+  .cabecalho {
+    background-color: var(--header-cor-de-fundo);
+  } 
