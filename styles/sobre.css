@@ -1,31 +1,37 @@
 #sobre {
     background-color: var(--cor-de-sobre);
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
-    padding: 120px 10px;
-  }
+    padding: 80px 10px;
+}
   
-  .imagem-sobre {
-    width: 35%;
+.imagem-sobre {
+    width: 100%;
     border: solid, 20px, var(--header-cor-de-fundo);
     border-radius: 20px;
-  }
+    max-width: 300px;
+    margin-top: 20px;
+}
   
-  .itens-cabecalho {
+.itens-cabecalho {
     font-size: 30px;
-  }
+}
   
-  .titulo-sobre {
+.titulo-sobre {
     padding: 24px 0;
-  }
+}
   
-  .div-sobre-conteudo {
-    width: 35%;
-  }
+.div-sobre-conteudo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
   
-  .texto-sobre {
+.texto-sobre {
     font-size: 20px;
-    /* border: solid, var(--header-cor-de-fundo);
-    border-radius: 10px; */
-  }
+}
+
+
+

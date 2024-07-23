@@ -1,49 +1,51 @@
 .titulo-contato {
     margin: 30px 0;
-  }
+}
   
-  #contato {
-    width: 940px;
-      margin: 0 auto;
-  }
+#contato {
+  display:flex;
+  justify-content: center;
+  padding:0 10px;
+}
   
-  form {
-      margin: 40px 0;
-  }
+.formulario {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
   
-  form label, form legend {
-      display:block;
-      font-size: 20px;
-      margin: 0 0 10px;
-  }
+.formulario label, form legend {
+  display:block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
   
-  .input-padrao {
-      display: block;
-      margin: 0 0 20px;
-      padding: 10px 25px;
-      width: 50%;
-  }
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 100%;
+}
   
-  .checkbox {
-      margin: 20px 0;
-  }
+.checkbox {
+  margin: 20px 0;
+}
   
-  .enviar {
-      width:30%;
-      padding: 15px 0;
-      background: var(--cor-botao);
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      border: none;
-      border-radius: 5px;
-      transition: 1s all;
-      cursor: pointer;
-  }
+.enviar {
+  width:100%;
+  padding: 15px 0;
+  background: var(--cor-botao);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
   
-  .enviar:hover {
-      /* background: darkorange; */
-    background-color: var(--cor-botao-hover);
-      transform: scale(1.2);
-  }
+.enviar:hover {
+  background-color: var(--cor-botao-hover);
+  transform: scale(1.2);
+}
   

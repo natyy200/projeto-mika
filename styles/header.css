@@ -1,7 +1,12 @@
+.cabecalho {
+  background-color: var(--header-cor-de-fundo);
+} 
 .logo {
-    width: 20%;
-  }
-  
-  .cabecalho {
-    background-color: var(--header-cor-de-fundo);
-  } 
+  width: 100%;
+  max-width: 200px;
+}
+
+.itens-cabecalho {
+  font-size: 18px;
+}
+
